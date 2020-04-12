@@ -1,0 +1,3 @@
+[submodule "libtrashcan"]
+	path = libtrashcan
+	url = git@github.com:robertguetzkow/libtrashcan.git

@@ -1,11 +1,15 @@
 <p align="center">
-<img src="/SRC/Waifu2x-Extension-QT/icon/icon_main.png" height="150">
+<!--img src="src/icon/icon_main.png" height="150"-->
+
+![src/icon/icon_main.png](src/icon/icon_main.png)
 </p>
 
-<h2 align="center"> Waifu2x-Extension-GUI </h2>
+# SuperScaler 
 
 <p align="center">
 <img src="https://img.shields.io/badge/support-Windows-blue?logo=Windows">
+<img src="https://img.shields.io/badge/support-macOS-blue?logo=Apple">
+<img src="https://img.shields.io/badge/support-Linux-blue?logo=Linux">
 <img src="https://img.shields.io/github/license/AaronFeng753/Waifu2x-Extension-GUI">
 </p>
 
@@ -14,6 +18,24 @@
 <img src="https://img.shields.io/github/commits-since/AaronFeng753/Waifu2x-Extension-GUI/latest">
 <img src="https://img.shields.io/github/last-commit/AaronFeng753/Waifu2x-Extension-GUI">
 </p>
+
+This repo is a fork of 
+[Waifu2x-Extension-GUI](https://github.com/AaronFeng753/Waifu2x-Extension-GUI). 
+If you appreciate this software, consider giving a donation to Aaron Feng.
+
+
+#### Differences from Waifu2x-Extension-GUI
+
+* Changed the name to avoid confusion.
+* Added ability to compile on macOS, Linux, and Windows.
+* Added move-to-trash ability via [libtrashcan](https://github.com/robertguetzkow/libtrashcan).
+* Removed branding & donation requests. (Visit 
+[Waifu2x-Extension-GUI](https://github.com/AaronFeng753/Waifu2x-Extension-GUI) 
+if you wish to donate.)
+
+
+Original README from Waifu2x-Extension-GUI follows.
+<hr>
 
 <h4 align="center"> Supported Language: English, 简体中文, 日本語(機械翻訳) </h4>
 
@@ -147,10 +169,3 @@ If your gpu doesn't support vulkan, you can use Waifu2x-converter, which is also
 - SoX: http://sox.sourceforge.net/
 
 - Icons made by : Freepik (https://www.flaticon.com/authors/freepik) From Flaticon : https://www.flaticon.com/
-
-# ❤ Donate ❤
-# [PayPal](https://www.paypal.me/aaronfeng753)
-### [Donation list](https://github.com/AaronFeng753/Waifu2x-Extension-GUI/blob/master/Donate_list.md)
-### 除了扫码捐赠现金, 您也可以 打开支付宝首页搜“682796694”领红包并使用(比如直接把红包发给我🤣), 我也可以获得收入.
-![donate_new](/donate_new.jpg)
-#### 如果donate(捐赠)二维码图片无法正常加载,请[打开此链接查看](https://gitee.com/aaronfeng0711/Waifu2x-Extension-GUI/raw/master/donate_new.jpg)或者合法的连接国际网络后刷新页面, 当然您也可以[按照这个教程来尝试修复github图片加载的问题](https://github.com/AaronFeng753/Github_dns_hosts#github_dns_hosts).
